@@ -10,13 +10,13 @@ Open two termnials
 
 - Terminal 1
 
-  ```console
+  ```shell
   watch -n 1 free
   ```
 
 - Terminal 2
 
-  ```console
+  ```shell
   git clone https://github.com/YKG/meminfo-rs.git
   cd meminfo-rs
   cargo run
