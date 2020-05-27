@@ -1,0 +1,10 @@
+[package]
+name = "meminfo-rs"
+version = "0.1.0"
+authors = ["YKG <yekaige2010@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = {git = "https://github.com/YKG/sysinfo.git", rev = "ba41e762d02f25563536993f306f089bcb8ef38c"}
